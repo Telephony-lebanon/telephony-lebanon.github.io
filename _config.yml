@@ -8,7 +8,9 @@ facebook_username: daniel.aoude
 linkedin_username: daniel-awde-88250362
 twitter_username: DanielAwde
 paginate: 3
-gems: [jekyll-paginate]
+gems: 
+- jekyll-paginate
+- jekyll-sitemap
 include: [.editorconfig, .gitattributes, .gitignore, .htaccess]
 
 # Build settings
