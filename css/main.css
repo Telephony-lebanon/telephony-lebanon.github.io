@@ -436,10 +436,22 @@ a.header{
     box-sizing: border-box;    
 }
 
+.latest-post{
+    background-color: #F5F8FA;
+    border: 1px solid #d3e0e9;
+    border-radius: 4px;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+
 .header-latest h4{
     color: #3097d1;
     text-decoration: none;
     margin: 10px 0;
+}
+
+.pagination li a{
+    border: 1px solid #d3e0e9;
 }
 
 @media screen and (max-width: 769px){
@@ -500,10 +512,8 @@ footer{
 
 .well{
     background-color: #F5F8FA;
-}
-
-.modal-content .well{
     border-radius: 0 0 4px 4px;
+    
 }
 
 .modal-content{

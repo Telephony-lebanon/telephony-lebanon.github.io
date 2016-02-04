@@ -14,7 +14,7 @@
     <div class="widget" id="Popular_Posts">
         <h3 class="h3-title">Latest Posts</h3>
         {% for post in site.posts limit: 3%}
-            <div class="row well">
+            <div class="row latest-post">
                 <div id="left-side" class="col-md-6 col-sm-12 col-xs-12">
                     <a href="{{ post.url | prepend: site.baseurl }}">
                         <img height="100" width="150" class="img-rounded" src="/img/{{ post.image }}" width="836" height="426" alt="{{ post.title }}">
