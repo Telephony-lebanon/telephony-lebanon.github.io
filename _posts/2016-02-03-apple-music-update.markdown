@@ -11,7 +11,7 @@ Apple released an update for the Apple Music app on the Android platform via the
 >* See the full schedule of Beats 1 shows, making it easy to tune into your favorite ones.
 >* Browse My Music by Composers, and Compilations, which help you find music your classical albums or movie soundtracks
 
-Moreover, the update makes it easier for Android users to use the Beats 1 radio station by making it possible to see a full schedule of shows and improving the experience of trying to find your favorite ones to follow, and it even makes it possible to perform searches for composers or compilations, which will make finding certain kinds of music a lot easier on specific users.
+The update makes it easier for Android users to use the Beats 1 radio station by making it possible to see a full schedule of shows and improving the experience of trying to find your favorite ones to follow, and it even makes it possible to perform searches for composers or compilations, which will make finding certain kinds of music a lot easier on specific users.
 
 Apple Music is still very much in beta on the Android platform, but it works entirely the same as the iOS counterpart, allowing users to stream music off of Apple’s online catalogs for a monthly price of $9.99. Android users also get the same 3-month free trial option that Apple users have, which is a plus for anyone wanting to try it out before they buy.
 
