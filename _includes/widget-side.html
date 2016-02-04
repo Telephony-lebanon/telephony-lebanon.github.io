@@ -14,23 +14,21 @@
     <div class="widget" id="Popular_Posts">
         <h3 class="h3-title">Latest Posts</h3>
         {% for post in site.posts limit: 3%}
-            <div class="latest-post">
-                <div class="row">
-                    <div id="left-side" class="col-md-6 col-sm-12 col-xs-12">
-                        <a href="{{ post.url | prepend: site.baseurl }}">
-                            <img height="100" width="150" class="img-rounded" src="/img/{{ post.image }}" width="836" height="426" alt="{{ post.title }}">
-                        </a>
-                    </div>
-                    <div class="col-md-6 col-sm-12 col-xs-12 margin-span text-center header-latest">
-                        <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12 col-xs-12"><span class="fa fa-pencil hidden-xs"></span><a>{{ post.author }}</a></div>
-                            <div class="col-md-12 col-sm-12 col-xs-12"><span class="fa fa-clock-o hidden-xs"></span>{{ post.date | date: "%b %-d, %Y" }}</div>
-                        </div>
+            <div class="row well">
+                <div id="left-side" class="col-md-6 col-sm-12 col-xs-12">
+                    <a href="{{ post.url | prepend: site.baseurl }}">
+                        <img height="100" width="150" class="img-rounded" src="/img/{{ post.image }}" width="836" height="426" alt="{{ post.title }}">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 margin-span text-center header-latest">
+                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12"><span class="fa fa-pencil hidden-xs"></span><a>{{ post.author }}</a></div>
+                        <div class="col-md-12 col-sm-12 col-xs-12"><span class="fa fa-clock-o hidden-xs"></span>{{ post.date | date: "%b %-d, %Y" }}</div>
                     </div>
                 </div>
-                {{ post.excerpt }}
             </div>
+            {{ post.excerpt }}
         {% endfor %}
      </div>
 </aside>
