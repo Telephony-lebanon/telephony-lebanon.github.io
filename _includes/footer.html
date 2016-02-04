@@ -1,0 +1,100 @@
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                    <h3 class="h3-title">Home</h3>
+                    <ul class="list-unstyled">
+                        {% for my_page in site.pages %}
+                            {% if my_page.title %}
+                                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        <li> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <h3 class="h3-title">About</h3>
+                        <p>{{ site.description }} The site is updated multiple times daily for best experience.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h3 class="h3-title">Online Support</h3>
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="fa fa-envelope"></span>
+                            <label>By Email:</label>
+                            <p>
+                                <a href="mailto:{{ site.email }}" target="_blank">
+                                    {{ site.email }}
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fa fa-phone"></span> 
+                            <label>By Phone:</label>
+                            <p>
+                                <a href="tel:70979482">
+                                    Daniel Awde: 70 979 482
+                                </a>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="fa fa-map"></span> 
+                            <label>Our location:</label>
+                            <p>
+                                <a href="https://goo.gl/maps/RQa0i" target="_blank">
+                                    Bater Al Shoof
+                                </a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                    <ul class="list-unstyled">
+                        <li>
+                            <h3 class="h3-title">Comming Soon!</h3>
+                            <label class="sr-only" for="subscribe">Enter your email</label>
+                               <div class="input-group">
+                                    <input class="form-control" placeholder="Email@you.com" type="email" id="subscribe" required autocomplete="on" name="email-subscribe" >
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-custom" type="button">Subscribe</button>
+                                    </span>
+                                </div>
+                        </li>
+                        <li style="margin-top: 20px;">
+                            <h3 class="h3-title">Follow us ON</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a target="_blank" class="btn btn-custom social-button" role="button" href="https://www.facebook.com/{{ site.facebook_username }}">
+                                        <span class="fa fa-facebook fa-2x" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" class="btn btn-custom social-button" role="button" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+                                        <span class="fa fa-linkedin fa-2x" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" class="btn btn-custom social-button" role="button" href="https://github.com/{{ site.github_username }}">
+                                        <span class="fa fa-github fa-2x" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" class="btn btn-custom social-button" role="button" href="https://twitter.com/{{ site.twitter_username }}">
+                                        <span class="fa fa-twitter fa-2x" aria-hidden="true"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            Copyright © Daniel Awde 2016. All right reserved.
+        </div>
+    </div>
+</footer>
+

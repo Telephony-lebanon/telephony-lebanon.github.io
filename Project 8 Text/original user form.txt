@@ -1,0 +1,161 @@
+//subscribe button
+		<form class="form-inline">
+                                      <div class="form-group">
+                                        
+                                           <label class="sr-only" for="subscribe">Enter your email</label>
+
+                                           <div class="input-group">
+
+                                                <input class="form-control" placeholder="Email@you.com" type="email" id="subscribe">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-custom" type="button">Subscribe</button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </form>
+
+
+
+		//user form
+   <div class="modal fade" tabindex="-1" id="user-log" role="dialog" aria-labelledby="user-log" aria-hidden="true">
+           
+            <div class="modal-dialog">
+                
+                <div class="modal-content">
+                    
+                    <div class="modal-header">
+                        
+                        <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
+                            
+                            <span class="fa fa-remove" aria-hidden="true"></span>
+                            
+                            <span class="sr-only">Close</span>
+                            
+                        </button>
+                        
+                        <h2 class="modal-title">User Form</h2>
+                        
+                    </div>
+                    
+                    <div class="modal-body">
+                    
+                        <div role="tabpanel">
+                           
+                            <div class="row">
+                               
+                                <div class="col-sm-6 col-xs-12">
+                                     
+                                    <ul role="tablist" class="nav nav-tabs nav-justified" id="log-tabs">
+                                       
+                                        <li id="sign-in-tab" role="presentation" class="active">
+                                        
+                                            <a data-toggle="tab" href="#sign-in">Log In</a>
+                                         
+                                        </li>
+                                        <li id="sign-up-tab" role="presentation" >
+                                        
+                                            <a  data-toggle="tab" href="#sign-up">New User</a>
+                                        
+                                        </li>
+                                    </ul>
+                                    
+                                    <div class="well text-left">
+                                        
+                                         <div class="tab-content">
+                                               
+                                            <div role="tabpanel" id="sign-in" class="tab-pane fade in active">
+
+                                                <form id="loginForm" method="POST" action="/log-in/" novalidate="novalidate" role="form">
+                                                  <div class="form-group">
+                                                      <label for="Email" class="log-label">Email</label>
+                                                      <input type="email" class="form-control" id="Email" name="Email" value="" required="" title="Please enter you Email" placeholder="example@gmail.com">
+                                                      <span class="help-block"></span>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="password" class="log-label">Password</label>
+                                                      <input type="password" class="form-control" id="password" placeholder="Password" name="password" value="" required="" title="Please enter your password">
+                                                      <span class="help-block"></span>
+                                                  </div>
+                                                  <div id="loginErrorMsg" class="alert alert-error hide">Wrong Email og password</div>
+
+                                                  <label class="log-label">
+                                                      <input type="checkbox" style="margin-right: 5px;" name="remember" id="remember">Remember login
+                                                  </label>
+                                                  <p class="help-block">(if this is a private computer)</p>
+
+
+
+                                                    <button tabindex="0" type="submit" class="btn btn-custom btn-block" data-placement="top" data-toggle="popover" data-trigger="focus" data-content="Thanks" id="popover" style="margin-bottom: 5px;" S>Login</button>
+                                                    
+                                                    
+                                                  <button href="login-help.html" class="btn btn-default btn-block">Help to login</button>
+                                              </form>
+
+                                             </div>
+
+                                             <div role="tabpanel" id="sign-up" class="tab-pane fade">
+                                                 
+                                                 <form id="loginForm" method="POST" action="/sign-up/" novalidate="novalidate" role="form">
+                                                  <div class="form-group">
+                                                      <label for="Email" class="log-label">Email</label>
+                                                      <input type="Email" class="form-control" id="Email" name="Email" value="" required="" title="Please enter you Email" placeholder="example@gmail.com">
+                                                      <span class="help-block"></span>
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="password" class="log-label">Password</label>
+                                                      <input type="password" class="form-control" id="password" placeholder="Password" name="password" value="" required="" title="Please enter your password">
+                                                      <span class="help-block"></span>
+                                                  </div>
+                                                     
+                                                  <div class="form-group">
+                                                      <label for="password" class="log-label">Confirm Password</label>
+                                                      <input type="password" class="form-control" id="password-conf" placeholder="Password" name="password-conf" value="" required="" title="Please enter your password">
+                                                      <span class="help-block"></span>
+                                                  </div>
+
+                                                  <label class="log-label">
+                                                      <input type="checkbox" style="margin-right: 5px;" name="remember" id="remember">Agree to <a href="Terms-of-service.html">Terms and Condition</a>
+                                                  </label>
+
+                                                    <button tabindex="0" type="submit" class="btn btn-custom btn-block" data-placement="top" data-toggle="popover" data-trigger="focus" data-content="Thanks" id="popover" style="margin-bottom: 5px;" S>Sign UP</button>
+                                                    
+                                                    
+                                              </form>
+
+
+                                             </div>
+                                                 
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="col-sm-6 col-xs-12 text-center">
+
+                                        <p class="lead">Register now for <span class="text-custom">FREE</span></p>
+                                        
+                                        <ul class="list-unstyled" style="line-height: 2">
+                                          <li><span class="fa fa-check"></span> See all your orders</li>
+                                          <li><span class="fa fa-check"></span> Fast re-order</li>
+                                          <li><span class="fa fa-check"></span> Save your favorites</li>
+                                          <li><span class="fa fa-check"></span> Fast checkout</li>
+                                          <li><span class="fa fa-check"></span> Get a gift <small>(only new customers)</small></li>
+                                          <li><a href="Services.html"><u>Read more</u></a></li>
+                                        </ul>
+                                        <button id="register-button" data-toggle="tab" href="#sign-up" type="submit" class="btn btn-custom btn-block">Yes please, register now!</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    

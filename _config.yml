@@ -1,0 +1,34 @@
+# Site settings
+title: Everything iPhone, iPad And Android News and Tutorials | Telephony Lebanon
+email: danielawde9@gmail.com
+description: Telephony a weblog dedicated on delivering mobile phone latest news, how to fix, information guides and tutorials about the iPhone, iPad and Android.
+url: "http://telephony-lebanon.github.io" # the base hostname & protocol for your site
+github_username:  danielawde9
+facebook_username: daniel.aoude
+linkedin_username: daniel-awde-88250362
+twitter_username: DanielAwde
+paginate: 3
+gems: [jekyll-paginate]
+include: [.editorconfig, .gitattributes, .gitignore, .htaccess]
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Daniel Awde
+      layout: "post"
+      category: Tech
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"

@@ -1,0 +1,45 @@
+	//contact modal
+	<div class="modal fade" tabindex="-1" id="contact-modal" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
+            <div class="modal-dialog ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
+                            <span class="fa fa-remove" aria-hidden="true"></span>
+                            <span class="sr-only">Close</span>
+                        </button>
+                        <h2 class="modal-title">Contact Us</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form" action="index.php" method="POST" autocomplete="on">
+                            <div class="form-group" id="contact-name-id">
+                                <label for="contact-name" class="col-lg-2 control-label">Name:</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-name" placeholder="Full Name"> </div>
+                            </div>
+                            <div class="form-group" id="contact-email-id">
+                                <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                                <div class="col-lg-10">
+                                    <input type="email" class="form-control" id="contact-email" placeholder="You@email.com"> </div>
+                            </div>
+                            <div class="form-group" id="contact-subject-id">
+                                <label for="contact-subject" class="col-lg-2 control-label">Subject:</label>
+                                <div class="col-lg-10">
+                                    <input type="text" class="form-control" id="contact-subject" placeholder="Subject"> </div>
+                            </div>
+                            <div class="form-group" id="contact-msg-id">
+                                <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                                <div class="col-lg-10">
+                                    <textarea id="contact-msg" class="form-control" rows="8" placeholder="Description.."></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <form class="form-horizontal" role="form" action="index.php" method="POST" autocomplete="on">
+                            <button type="button" data-dismiss="modal" class="btn">Close</button>
+                            <button class="btn btn-custom" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>

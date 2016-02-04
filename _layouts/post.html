@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<div class="main-side col-md-8 col-sm-12 col-xs-12">
+    <article class="post">
+        <h1>
+           <a class="header" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </h1>
+        <div class="post-info margin-span">
+            <div id="left-side" class="text-center">
+                <i class="fa fa-pencil hidden-xs"></i><span><a>{{ page.author }}</a></span>
+                •
+                <span class="fa fa-clock-o hidden-xs"></span>
+                {{ page.date | date: "%b %-d, %Y" }}
+            </div>
+        </div>
+        <div class="post-body">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <img class="img-responsive" src="/img/{{ page.image }}" width="836" height="426" alt="{{ page.title }}">
+            </a>
+            {{ content }}
+        </div>
+        <div class="post-info-footer margin-span row">
+           <div id="left-side" class="col-md-6 col-sm-6 col-xs-12">
+                Share This On
+            </div>
+            <div id="right-side" class="col-md-6 col-sm-6 col-xs-12">
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style pull-right">
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_linkedin"></a>
+                <a class="a2a_button_email"></a>
+                </div>
+            </div>
+        </div>
+    </article>
+    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+</div>
