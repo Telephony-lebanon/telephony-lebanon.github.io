@@ -447,6 +447,11 @@ a.header{
     margin-bottom: 15px;
 }
 
+.latest-post img{
+    margin: 10px;
+    margin-top: 0;
+}
+
 .pagination li a{
     border: 1px solid #d3e0e9;
 }
