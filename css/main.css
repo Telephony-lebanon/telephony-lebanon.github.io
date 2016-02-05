@@ -447,12 +447,6 @@ a.header{
     margin-bottom: 15px;
 }
 
-.header-latest h4{
-    color: #3097d1;
-    text-decoration: none;
-    margin: 10px 0;
-}
-
 .pagination li a{
     border: 1px solid #d3e0e9;
 }

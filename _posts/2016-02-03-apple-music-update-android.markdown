@@ -1,5 +1,5 @@
 ---
-title:  "Apple Music Update for Android"
+title:  "Apple Music for Android update adds save to SD card for offline listening"
 image: apple-music-android.jpg
 ---
 Apple released an update for the Apple Music app on the Android platform via the Google Play Store on Wednesday with a much-needed new feature: the ability to save songs from the app to your Android device’s removable SD card storage.
