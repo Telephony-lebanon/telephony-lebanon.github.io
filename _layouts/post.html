@@ -15,7 +15,7 @@ layout: default
             </div>
         </div>
         <div class="post-body">
-            <a href="{{ post.url | prepend: site.baseurl }}">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
                 <img class="img-responsive" src="/img/large/{{ page.image }}" width="708" height="360" alt="{{ page.title }}">
             </a>
             {{ content }}
