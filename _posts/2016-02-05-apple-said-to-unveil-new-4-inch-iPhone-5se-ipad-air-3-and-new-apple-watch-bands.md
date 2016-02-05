@@ -9,10 +9,12 @@ Apple is currently aiming to unveil the new 4-inch the iPhone 5se, the iPad Air 
 
 If the rumors are accurate, the iPhone 5se should give customers who prefer smaller form factors something to be excited about. The handset will have a four-inch screen like the iPhone 5s, but run Apple’s in-house designed 64-bit A9 chip.
 
+### iPad Air 3 Cover
 ![Apple iPad Air 3](/img/iPad-Air-3-case-leak.jpg "iPad Air 3 case"){: .img-responsive}
 
 As for the iPad Air 3, claimed design drawings suggest the 9.7-inch tablet refresh boasts four speakers and the Smart Connector like the iPad Pro. It could also support the Apple Pencil and have a LED flash on the back.
 
+###Apple New Brand Watch
 ![Apple New Brand Watch](/img/new-Apple-Watch.png "New Apple Watch Brand"){: .img-responsive}
 
 >The new band lines will include multiple new colors for the rubberized Sport Bands, new Hermes bands, a Space Black version of the Milanese Loop, and an entirely new band line made of a new material 
