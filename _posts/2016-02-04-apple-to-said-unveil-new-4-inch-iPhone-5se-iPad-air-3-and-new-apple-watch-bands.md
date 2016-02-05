@@ -14,8 +14,8 @@ If the rumors are accurate, the iPhone 5se should give customers who prefer smal
 
 As for the iPad Air 3, claimed design drawings suggest the 9.7-inch tablet refresh boasts four speakers and the Smart Connector like the iPad Pro. It could also support the Apple Pencil and have a LED flash on the back.
 
-###Apple New Brand Watch
-![Apple New Brand Watch](/img/new-Apple-Watch.png "New Apple Watch Brand"){: .img-responsive}
+###Apple New Band Watch
+![Apple New band Watch](/img/new-Apple-Watch.png "New Apple Watch band"){: .img-responsive}
 
 >The new band lines will include multiple new colors for the rubberized Sport Bands, new Hermes bands, a Space Black version of the Milanese Loop, and an entirely new band line made of a new material 
 
