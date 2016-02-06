@@ -2,7 +2,9 @@ blue 3097d1
 green 30d16a
 dark blue 264e88
 border d3e0e9
-white F5F8FA (background too)
+
+white F5F8FA
+	(background too)
 
 
 

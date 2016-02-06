@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5{
     display: block;
     height: 34px;
 }
+/*
 
 textarea:focus,
 input[type="text"]:focus,
@@ -68,6 +69,7 @@ input[type="color"]:focus,
     -webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #3097d1;
     outline: 0 none;
 }
+*/
 
 .fa{
     color: #3097d1;
@@ -170,20 +172,17 @@ input[type="color"]:focus,
    ========================================================================== */
 
 .navbar{
-    min-height: 80px;
+    max-height: 80px;
     border-top: 0;
     border-right: 0;
     border-left: 0;
-    border-color: #d3e0e9;
+    border-color: #d3e0e9 !important;
      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
     -moz-box-shadow:0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
     -webkit-box-shadow:0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
     margin-bottom: 0;
-}
-
-.navbar-default{
     background-color: #FFFFFF;
-    line-height: 78px;
+    line-height: 0;
 }
 
 .navbar-brand{
@@ -199,10 +198,15 @@ input[type="color"]:focus,
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
     color: #3097D1 !important;
+    background-color: transparent;
+}
+
+.navbar-collapse{
+    border-color: #d3e0e9;
 }
 
 /*    For dropdown menu */
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus{
     background-color: #3097d1 !important;
     color: #F5F8FA !important;
 }
@@ -215,44 +219,26 @@ input[type="color"]:focus,
 li.active a,li.active a:hover{
     background-color: #3097d1 !important;
     color: #F5F8FA !important;
-    
 }
 
-.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover{
-    border-bottom-color: transparent;
-}
-
-.navbar-form{
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
-    background: transparent;
-}
-
-.navbar-default .navbar-toggle{
-    border: transparent;
-}
-
+/* burger button */
 .navbar-toggle{
+    border: transparent;
     margin-top: 20px;
     padding: 10px 0;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-toggle:hover, .navbar-toggle:focus{
+    background: transparent;
+}
+
+
+.navbar-toggle .icon-bar{
     width: 25px;
     height: 4px;
     background-color: #3097D1;
 }
-
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
-    border-color: #d3e0e9;
-}
-
-.search-form{
-    width: 162px !important;
-}
+/* burger button */
 
 @media screen and (max-width: 767px){
     
@@ -261,22 +247,10 @@ li.active a,li.active a:hover{
         height:40px;
     }
     
-    .navbar-default{
-        background-color: #FFFFFF;
+    .navbar{
         line-height: 40px;;
     }    
-    
-    .navbar-form{
-        padding: 10px 15px; 
-    }
-    
-    .search-form{
-        width: 100% !important;
-    }
-    
-    #search-site{
-        width: 50%;
-    }
+  
 }
 
 /* ==========================================================================
@@ -378,6 +352,10 @@ a.header{
 
 .margin-span span{
     margin: 0 7px;
+}
+
+.thumbnail{
+    border-color: #d3e0e9;  
 }
 
 /* to merge later */
