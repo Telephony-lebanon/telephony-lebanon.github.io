@@ -23,10 +23,12 @@
                         <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        {% for my_page in site.pages %}
-                            {% if my_page.title %}
-                                <li><a class="navbar-underline text-center" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                        {% for page in site.pages %}
+                           {% unless page.exclude_from_nav %}
+                            {% if page.title %}
+                                <li><a class="navbar-underline text-center" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                             {% endif %}
+                            {% endunless %}
                         {% endfor %}
                     </ul>
                 </li>
