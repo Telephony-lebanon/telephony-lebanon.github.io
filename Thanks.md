@@ -1,6 +1,6 @@
 ---
-permalink: /Thanks/
-title: Thanks
+permalink: /thanks/
+title: thanks
 layout: custom-thanks
 exclude_from_nav: true
 ---
