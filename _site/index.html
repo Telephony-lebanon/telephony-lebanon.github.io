@@ -48,7 +48,7 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <nav class="navbar">
+        <nav class="navbar navbar-default">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -439,43 +439,37 @@
 
         <div class="modal fade" tabindex="-1" id="contact-modal" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
     <div class="modal-dialog ">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
-                    <span class="fa fa-remove" aria-hidden="true"></span>
-                    <span class="sr-only">Close</span>
-                </button>
-                <h2 class="modal-title">Coming Soon!</h2>
-            </div>
-            <div class="modal-body">
-                <p>
-                    <a role="button" class="btn btn-custom" href="https://github.com/telephony-lebanon/telephony-lebanon.github.io/issues/new" target="_blank">
+        <form class="form-horizontal" action="http://formspree.io/danielawde9@gmail.com" method="POST">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
+                        <span class="fa fa-remove" aria-hidden="true"></span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h2 class="modal-title">Contact Us</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" id="contact-email-id">
+                        <label for="contact-email" class="col-lg-2 control-label">Email:</label>
+                        <div class="col-lg-10">
+                            <input type="email" name="_replyto" class="form-control" id="contact-name" placeholder="Email"> 
+                        </div>
+                    </div>
+                    <div class="form-group" id="contact-msg-id">
+                        <label for="contact-msg" class="col-lg-2 control-label">Message:</label>
+                        <div class="col-lg-10">
+                            <textarea name="body" id="contact-msg" class="form-control" rows="8" placeholder="Description.."></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input class="btn btn-custom pull-right" type="submit" value="Send">
+                    <a role="button" class="btn btn-custom pull-left" href="https://github.com/telephony-lebanon/telephony-lebanon.github.io/issues/new" target="_blank">
                         <span class="fa fa-github fa-lg"></span> Leave A feedback
                     </a>
-                </p>
-                <p>
-                   <h3>Or Contact me By</h3>
-                    <ul class="list-unstyled">
-                        <li>
-                            <label>By Email:</label>
-                            <p>
-                                <a href="mailto:danielawde9@gmail.com" target="_blank">
-                                    danielawde9@gmail.com
-                                </a>
-                            </p>
-                        </li>
-                        <li>
-                            <label>By Phone:</label>
-                            <p>
-                                <a href="tel:70979482">
-                                    Daniel Awde: 70 979 482
-                                </a>
-                            </p>
-                        </li>
-                    </ul>
-                </p>
+                </div>
             </div>
-        </div>
+         </form>
     </div>
 </div>
 

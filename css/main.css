@@ -160,7 +160,7 @@ blockquote{
     margin-bottom: 0;
     background-color: #FFFFFF;
     line-height: 0;
-    z-index: 9999;
+    z-index: 99;
 }
 
 .navbar-brand{
