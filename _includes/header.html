@@ -24,10 +24,10 @@
                     </a>
                     <ul class="dropdown-menu">
                         {% for page in site.pages %}
-                           {% unless page.exclude_from_nav %}
-                            {% if page.title %}
-                                <li><a class="navbar-underline text-center" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                            {% endif %}
+                            {% unless page.exclude_from_nav %}
+                                {% if page.title %}
+                                    <li><a class="navbar-underline text-center" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                                {% endif %}
                             {% endunless %}
                         {% endfor %}
                     </ul>

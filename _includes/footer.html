@@ -5,10 +5,12 @@
                 <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
                     <h3 class="h3-title">Home</h3>
                     <ul class="list-unstyled">
-                        {% for my_page in site.pages %}
-                            {% if my_page.title %}
-                                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-                            {% endif %}
+                        {% for page in site.pages %}
+                            {% unless page.exclude_from_nav %}
+                                {% if page.title %}
+                                    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                                {% endif %}
+                            {% endunless %}
                         {% endfor %}
                         <li> subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> </li>
                     </ul>
