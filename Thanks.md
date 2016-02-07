@@ -1,6 +1,8 @@
 ---
-title: Sitemap
-permalink: /sitemap/
+permalink: /Thanks/
+layout: custom-thanks
 ---
 
-Thank you for regitering
+Thank you, you will be redirect in a few seconds...
+
+If not click [here]({{site.url}})
