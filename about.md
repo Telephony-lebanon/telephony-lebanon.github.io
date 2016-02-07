@@ -1,7 +1,5 @@
 ---
-title: About
+layout: default
 permalink: /about/
 ---
-
-Daniel Awde BAU Communication & Electronic Student
-
+asds
