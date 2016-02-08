@@ -1,6 +1,6 @@
 ---
 permalink: /thanks/
-title: thanks
+title: Thanks
 layout: custom-thanks
 exclude_from_nav: true
 ---

@@ -1,8 +1,0 @@
-<span id="license-holders" class="license-holders">
-	<div>
-		<img src="http://logomakr.com/media/clipart/freepik_science-icons/orbit-network-symbol_40525.svg">Network by <a href="http://www.flaticon.com/" target="_blank" title="Flaticon">Flaticon</a> from <a href="http://www.freepik.com/" target="_blank" title="Freepik">Freepik</a>
-	</div>
-	<div>
-		<img src="http://logomakr.com/media/clipart/icomoon_icomoon-free-1/connection_23644.svg">Connection by <a href="http://www.flaticon.com/" target="_blank" title="Flaticon">Flaticon</a> from <a href="http://www.icomoon.io" target="_blank" title="Icomoon">Icomoon</a>
-	</div>
-</span>
