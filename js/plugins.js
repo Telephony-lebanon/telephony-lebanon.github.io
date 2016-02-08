@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
    To Top
    ========================================================================== */
     
-    $('body').append('<div id="to-top" class="btn btn-custom"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+    $('body').append('<div id="to-top" class="btn btn-custom"><span class="fa fa-chevron-up"></span></div>');
     
     $(window).scroll(function () {
             
@@ -68,36 +68,36 @@ jQuery(document).ready(function($){
    Toggle popover
    ========================================================================== */    
 
-   $('[data-toggle="popover"]').popover(); 
+//   $('[data-toggle="popover"]').popover(); 
   
 /* ==========================================================================
    Show Register Tab
    ========================================================================== */
-        
-    $('#register-button').on('click',function () {
-    
-        $('#log-tabs a:last').tab('show');
-    
-    });
-    
+//        
+//    $('#register-button').on('click',function () {
+//    
+//        $('#log-tabs a:last').tab('show');
+//    
+//    });
+//    
 /* ==========================================================================
     Smooth Scroling
     ========================================================================== */
-    
-    $("html").niceScroll({
-        cursorcolor: "#424242", // change cursor color in hex
-        cursoropacitymin: 0.5, // change opacity when cursor is inactive (scrollabar "hidden" state), range from 1 to 0
-        cursoropacitymax: 1, // change opacity when cursor is active (scrollabar "visible" state), range from 1 to 0
-        cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
-        cursorborder: "0", // css definition for cursor border
-        cursorborderradius: "5px", // border radius in pixel for cursor
-        zindex: "auto" | 599999999,
-        autohidemode: true,
-        scrollspeed: 70,
-        hwacceleration: true,
-        bouncescroll: true,
-        railoffset: true,
-    });  // The document page (body)
+//    
+//    $("html").niceScroll({
+//        cursorcolor: "#424242", // change cursor color in hex
+//        cursoropacitymin: 0.5, // change opacity when cursor is inactive (scrollabar "hidden" state), range from 1 to 0
+//        cursoropacitymax: 1, // change opacity when cursor is active (scrollabar "visible" state), range from 1 to 0
+//        cursorwidth: "10px", // cursor width in pixel (you can also write "5px")
+//        cursorborder: "0", // css definition for cursor border
+//        cursorborderradius: "5px", // border radius in pixel for cursor
+//        zindex: "auto" | 599999999,
+//        autohidemode: true,
+//        scrollspeed: 70,
+//        hwacceleration: true,
+//        bouncescroll: true,
+//        railoffset: true,
+//    });  // The document page (body)
     
 /* ==========================================================================
     Load External Js test
