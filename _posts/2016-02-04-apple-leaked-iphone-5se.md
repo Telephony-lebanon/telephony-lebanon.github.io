@@ -1,6 +1,7 @@
 ---
 title:  "Apple said to unveil new 4-inch iPhone 5se, iPad Air 3 and new Apple Watch bands on March 15"
 image: apple-iphone-5se-event.jpg
+tag: Apple
 ---
 Apple is currently aiming to unveil the new 4-inch the iPhone 5se, the iPad Air 3, and new Apple Watch band options at an event on Tuesday, March 15th, according to sources. 
 

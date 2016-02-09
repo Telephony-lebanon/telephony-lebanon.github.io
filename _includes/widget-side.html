@@ -15,6 +15,18 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
     </div>
+    <div class="widget">
+        <h3 class="h3-title">Tags</h3>
+        {% capture tags %}
+          {% for tag in site.tags %}
+            {{ tag[0] }}
+          {% endfor %}
+        {% endcapture %}
+        {% assign sortedtags = tags | split:' ' | sort %}
+        {% for tag in sortedtags %}
+            <a class="btn btn-custom" role="button" href="/tags/{{ tag }}/">{{ tag }}</a>
+        {% endfor %}
+    </div>
     <div class="widget" id="latest-post">
         <h3 class="h3-title">Latest Posts</h3>
         {% for post in site.posts limit: 3%}
@@ -41,5 +53,18 @@
         {% endfor %}
     </div>
     <div class="widget">
+        <h3 class="h3-title">Archive</h3>
+        <ul class="list-unstyled margin-span">
+        {% assign counter = 0 %}
+        {% for post in site.posts %}
+          {% assign thisyear = post.date | date: "%B %Y" %}
+          {% assign prevyear = post.previous.date | date: "%B %Y" %}
+          {% assign counter = counter | plus: 1 %}
+          {% if thisyear != prevyear %}
+            <li><a role="button" class="btn btn-custom-inverse" href="/archive/#{{ post.date | date:"%B %Y" }}">{{ thisyear }} <span class="badge">{{ counter }}</span></a></li>
+            {% assign counter = 0 %}
+          {% endif %}
+        {% endfor %}
+        </ul>
     </div>
 </aside>

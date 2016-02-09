@@ -1,6 +1,7 @@
 ---
 title:  "Google posts Q4 and full year 2015 earnings – $74.5 billion in revenue for the year"
 image: google-hq.jpg
+tag: Google
 ---
 Alphabet has just posted Google's Q4 and full year 2015 financial results, showing massive growth for the company year over year, as well as a big jump in revenue in Q4 alone.
 

@@ -452,6 +452,10 @@ input.gsc-input {
     border: 1px solid #d3e0e9;
 }
 
+.badge{
+    background-color: #3097D1;
+}
+
 @media screen and (max-width: 769px){
     
     #left-side, #right-side{

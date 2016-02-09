@@ -3,13 +3,22 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Daniel Awde -- BAU CEE Student -- DanielAwde
 
 # THANKS
-
-    <name>
+    
+    formspree
+    logomakr
+    Freepik
+    Flaticon
+    iDB
+    AndroidAuthority
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Jekyll, Github Pages
+    Bootstrap, Disqus
+    
+    

@@ -34,3 +34,5 @@ defaults:
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "page"
+
+
