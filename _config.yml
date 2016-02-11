@@ -7,7 +7,7 @@ github_username:  danielawde9
 facebook_username: daniel.aoude
 linkedin_username: daniel-awde-88250362
 twitter_username: DanielAwde
-paginate: 3
+paginate: 4
 gems: 
 - jekyll-paginate
 - jekyll-sitemap

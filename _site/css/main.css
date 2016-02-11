@@ -189,8 +189,9 @@ blockquote{
     color: #F5F8FA !important;
 }
 
-.dropdown-menu>li>a{
+.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
     background-color: transparent !important;
+    color: #3097d1;
 }
 /*    End menu*/
 
@@ -203,7 +204,7 @@ li.active a,li.active a:hover{
 .navbar-toggle{
     border: transparent;
     margin-top: 20px;
-    padding: 10px 0;
+    padding: 10px 0 10px 20px;
 }
 
 .navbar-toggle:hover, .navbar-toggle:focus{
@@ -467,6 +468,9 @@ input.gsc-input {
         align-items: center;
         justify-content: center;
         padding: 0;
+    }
+    .logo-name.navbar-brand{
+        float:none;
     }
 }
 
