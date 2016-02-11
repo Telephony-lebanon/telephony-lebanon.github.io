@@ -25,7 +25,7 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color: #3097d1 ;
 }
 
@@ -384,6 +384,10 @@ a.header{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;    
+}
+
+#tags .btn-custom{
+    margin-bottom: 10px;
 }
 
 /* google search engine */
