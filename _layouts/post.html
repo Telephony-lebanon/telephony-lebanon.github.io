@@ -14,11 +14,15 @@ layout: default
                 {{ page.date | date: "%b %-d, %Y" }}
             </div>
         </div>
-        <div class="post-body">
+        <div class="post-body margin-span">
             <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
                 <img class="img-responsive" src="/img/large/{{ page.image }}" width="708" height="360" alt="{{ page.title }}">
             </a>
             {{ content }}
+            Tags: <span class="fa fa-tags"></span>
+            {% for tags in page.tags %}
+            <a href="/tags/{{ tags }}/">{{ tags }}</a>
+            {% endfor %}
         </div>
         <div class="post-info-footer margin-span row">
            <div id="left-side" class="col-md-6 col-sm-6 col-xs-12">
