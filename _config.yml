@@ -11,7 +11,7 @@ paginate: 4
 gems: 
 - jekyll-paginate
 - jekyll-sitemap
-include: [.editorconfig, .gitattributes, .gitignore, .htaccess]
+include: ['.editorconfig', '.gitattributes', '.gitignore', '.htaccess']
 
 # Build settings
 markdown: kramdown
