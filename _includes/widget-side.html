@@ -3,7 +3,7 @@
         <h3 class="h3-title">Search This Site</h3>
         <gcse:search></gcse:search>
     </div>
-    <div class="ad-widget widget" id="ads">
+    <div class="widget hidden-sm hidden-xs" id="ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Project 9 -->
         <ins class="adsbygoogle"
@@ -24,7 +24,7 @@
         {% endcapture %}
         {% assign sortedtags = tags | split:' ' | sort %}
         {% for tag in sortedtags %}
-            <a class="btn btn-custom" role="button" href="/tags/{{ tag }}/">{{ tag }}</a>
+            <a class="btn btn-primary" role="button" href="/tags/{{ tag }}/">{{ tag }}</a>
         {% endfor %}
     </div>
     <div class="widget" id="latest-post">
@@ -38,13 +38,13 @@
                     <ul class="list-unstyled">
                         <li class="center-div">
                             <a href="{{ post.url | prepend: site.baseurl }}" class="thumbnail">
-                                <img height="100" width="150" class="img-rounded" src="/img/small/{{ post.image }}" alt="{{ post.title }}">
+                                <img height="100" width="150" class="img-rounded" src="/img/small/{{ post.tag }}/{{ post.image }}" alt="{{ post.title }}">
                             </a>
                         </li>
                         <li class="text-center">
                             <ul class="list-unstyled">
-                                <li><span class="fa fa-pencil"></span><a>{{ post.author }}</a></li>
-                                <li><span class="fa fa-clock-o"></span>{{ post.date | date: "%b %-d, %Y" }}</li>
+                                <li><span class="fa fa-pencil"></span> <a href="#">{{ post.author }}</a></li>
+                                <li><span class="fa fa-clock-o"></span> {{ post.date | date: "%b %-d, %Y" }}</li>
                             </ul>
                         </li>
                     </ul>
@@ -54,14 +54,14 @@
     </div>
     <div class="widget">
         <h3 class="h3-title">Archive</h3>
-        <ul class="list-unstyled margin-span">
+        <ul class="list-unstyled">
         {% assign counter = 0 %}
         {% for post in site.posts %}
           {% assign thisyear = post.date | date: "%B %Y" %}
           {% assign prevyear = post.previous.date | date: "%B %Y" %}
           {% assign counter = counter | plus: 1 %}
           {% if thisyear != prevyear %}
-            <li><a role="button" class="btn btn-custom-inverse" href="/archive/#{{ post.date | date:"%B %Y" }}">{{ thisyear }} <span class="badge">{{ counter }}</span></a></li>
+            <li><a role="button" class="btn btn-default" href="/archive/#{{ post.date | date:"%B %Y" }}">{{ thisyear }} <span class="label label-primary">{{ counter }}</span></a></li>
             {% assign counter = 0 %}
           {% endif %}
         {% endfor %}

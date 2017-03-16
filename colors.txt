@@ -1,0 +1,14 @@
+blue 3097d1
+green 30d16a
+dark blue 264e88
+border d3e0e9
+light blue 5bc0de
+
+white F5F8FA
+	(background too)
+    RGBA(245, 248, 250, 0.45);
+
+
+
+
+white f7fdfe (not used)

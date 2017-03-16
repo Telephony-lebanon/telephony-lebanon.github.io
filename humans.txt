@@ -20,5 +20,3 @@
     jQuery, Modernizr
     Jekyll, Github Pages
     Bootstrap, Disqus
-    
-    

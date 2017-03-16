@@ -2,8 +2,8 @@
    Author's custom styles
    ========================================================================== */
 
-.clear-fix{
-    clear: both;
+body{
+    border-top: 5px solid #3097d1
 }
 
 ::-moz-selection{
@@ -17,91 +17,39 @@
 }
 
 a{
-    color: #3097d1 ;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
     transition: all 0.2s;
 }
 
-a:visited{
-    color: #3097d1 ;
+.clear{
+    clear: both;
 }
-
-a:focus,a:hover{
-    color: #30d16a;
-    text-decoration: none;
+a .btn-primary{
+    color: white;
 }
-
-h1,h2,h3,h4,h5{
-    color: #444;
-    margin:20px 0;
-}
-
-.h3-title{
-    padding: 0 0 10px 0;
-    border-bottom: 2px solid #30d16a;
-    margin: 0 0 20px 0 ;
-    display: block;
-    height: 34px;
-}
-
-blockquote{
-    border-color: #F5F8FA;
+.center-div{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa{
     color: #3097d1;
 }
 
-.btn-custom{
-    background-color: #3097d1;
-    color: #F5F8FA !important;
-    border:1px solid transparent;
-    transition: all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -webkit-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -moz-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -o-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+.fa:hover{
+    color: #30d16a;
+        -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
 }
-
-.btn-custom .fa{
-    color: #F5F8FA !important;
-}
-
-.btn-custom:hover{
-    background-color: RGBA(245, 248, 250, 0.45);
-    border:1px solid #d3e0e9;
-    border-radius: 4px;
-    color: #30d16a !important;
-}
-
-.btn-custom:hover .fa{
-    color: #30d16a !important;
-}
-
-.btn-custom-inverse{
-    background: transparent none repeat scroll 0% 0%;
-    color: #3097d1 !important;
-    transition: all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -webkit-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -moz-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -o-transition:  all 300ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.btn-custom-inverse .fa{
-    color: #30d16a !important;
-}
-
-.btn-custom-inverse:hover{
-    background-color: #3097d1;
-    border-radius: 4px;
-    color: #F5F8FA  !important;
-}
-
-.btn-custom-inverse:hover .fa{
-    color: #F5F8FA  !important;
-}
-
 
 /* ==========================================================================
    To top
@@ -114,153 +62,11 @@ blockquote{
 	cursor: pointer;
 	display: none;
     z-index: 100;
+    border-color: #d3e0e9;
 }
 
 /* ==========================================================================
-   Ads Widget
-   ========================================================================== */
-
-.ad-widget-wide{
-    border-radius: 4px;
-    border: 1px solid #d3e0e9 ;
-    background-color: #fff;
-    margin: 20px 0;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    float: none;
-    margin: 20px auto;
-    padding: 5px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-}
-
-.ad-widget{
-    padding: 5px !important;
-}
-
-/* ==========================================================================
-   NavBar
-   ========================================================================== */
-
-.navbar{
-    max-height: 81px;
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
-    border-color: #d3e0e9 !important;
-     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -moz-box-shadow:0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -webkit-box-shadow:0px 0px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    margin-bottom: 0;
-    background-color: #FFFFFF;
-    line-height: 0;
-    z-index: 99;
-}
-
-.navbar-brand{
-    height: 80px;
-    padding: 16px 15px;
-}
-
-.navbar-nav>li>a{
-    line-height: 80px;
-    padding: 0 15px;
-}
-
-.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
-    color: #3097D1 !important;
-    background-color: transparent;
-}
-
-.navbar-collapse{
-    background-color: #fff;
-    border-bottom: 1px solid #d3e0e9;
-}
-
-/*    For dropdown menu */
-.navbar-nav > .open > a, .navbar-nav > .open > a:hover, .navbar-nav > .open > a:focus{
-    background-color: #3097d1 !important;
-    color: #F5F8FA !important;
-}
-
-.dropdown-menu>li>a, .dropdown-menu>li>a:hover{
-    background-color: transparent !important;
-    color: #3097d1;
-}
-/*    End menu*/
-
-li.active a,li.active a:hover{
-    background-color: #3097d1 !important;
-    color: #F5F8FA !important;
-}
-
-/* burger button */
-.navbar-toggle{
-    border: transparent;
-    margin-top: 20px;
-    padding: 10px 0 10px 20px;
-}
-
-.navbar-toggle:hover, .navbar-toggle:focus{
-    background: transparent;
-}
-
-.navbar-toggle .icon-bar{
-    width: 25px;
-    height: 4px;
-    background-color: #3097D1;
-}
-/* burger button */
-
-
-@media screen and (max-width: 767px){
-    
-    .navbar-nav>li>a{
-        line-height: 40px;
-        height:40px;
-    }
-    
-    .navbar{
-        line-height: 40px;;
-    }   
-    
-    .navbar-right, .navbar-collapse{
-        border-top: 1px solid #d3e0e9;
-    }
-  
-}
-
-/* ==========================================================================
-   Animated Burger Button
-   ========================================================================== */
-
-.navbar-toggle .icon-bar{
-    position: relative;
-    background: #3097D1 none repeat scroll 0% 0%;
-    transition: all 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -webkit-transition:  all 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -moz-transition:  all 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-    -o-transition:  all 200ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(2){
-    top: 10px;
-    transform: rotate(45deg);
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(3){
-    background-color: transparent;
-}
-
-.navbar-toggle.active .icon-bar:nth-of-type(4){
-    top: -6px;
-    transform: rotate(-45deg);
-}
-
-/* ==========================================================================
-   UnderLined
+   UnderLined Navbar
    ========================================================================== */
 
 .navbar-underline{
@@ -295,17 +101,13 @@ li.active a,li.active a:hover{
    Body
    ========================================================================== */
 
-body{
-    color: #666;
-    font: 400 16px/30px 'Open Sans', sans-serif;
-    background-color: RGBA(245, 248, 250, 0.45);
+.body{
 }
 
 .post{
     border-radius: 4px;
     border: 1px solid #d3e0e9 ;
     background-color: #fff;
-    padding: 0 20px;
     margin: 20px 0;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
     -moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
@@ -313,51 +115,82 @@ body{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; 
+    padding: 20px; 
 }
 
-.center-div{
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.post-image{
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 5px solid #3097d1;
 }
 
-.margin-span span{
-    margin: 0 7px;
+.post-image a img{
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
-.thumbnail{
-    border-color: #d3e0e9;  
+.post-image a img:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-/* to merge later */
-.post-info{
-    border: 1px solid #d3e0e9;
-    border-left: 0;
-    border-right: 0;
-    margin-right: 0;
-    margin-left: 0;
-    line-height: 52px;  
-    margin-bottom: 15px;
+.post-body{
+    padding: 10px 0;
 }
 
-#right-side{
-    margin: 10px 0;
+#left-side-post{
+    border-right: 1px solid #d3e0e9;
+    padding: 0 20px 0 0 !important;
 }
 
-/* to merge later */
-.post-info-footer{
-    border: 1px solid #d3e0e9;
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-    margin-right: 0;
-    margin-left: 0;
-    line-height: 52px;
+#right-side-post{
+    padding: 12px 0 0 20px!important;
 }
+
+#right-side-post a.btn{
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px){
+    #left-side-post{
+        border: 0;
+    } 
+    #right-side-post{
+    padding: 12px 0 0 0px!important;
+    }
+}
+
+
+
+/* ==========================================================================
+   Ads Widget
+   ========================================================================== */
+
+.ad-widget-wide{
+    border-radius: 4px;
+    border: 1px solid #d3e0e9 ;
+    background-color: #fff;
+    margin: 20px 0;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
+    -moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
+    -webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
+    float: none;
+    margin: 20px auto;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+
+/* ==========================================================================
+   Widget
+   ========================================================================== */
 
 .widget-side{
     float: right;
@@ -367,7 +200,7 @@ body{
     margin: 20px 0;
     min-height: 100px;
     background-color: #fff;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     border-radius: 4px;
     border: 1px solid #d3e0e9 ;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
@@ -378,215 +211,80 @@ body{
     box-sizing: border-box;    
 }
 
-#tags .btn-custom{
-    margin-bottom: 10px;
-}
+/* ==========================================================================
+   Search
+   ========================================================================== */
 
-/* google search engine */
-.gsc-control-cse {
-    border-color: #fff !important;
-    line-height: 1.4em  !important;
+.cse .gsc-control-cse, .gsc-control-cse, .gsc-search-box-tools .gsc-search-box .gsc-input
+{
     padding: 0 !important;
 }
 
-.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2,input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
-    width: 68px !important;
-    height: 40px !important;
-    margin: 0 !important;
-    margin-top: 4px !important;
-    border-radius: 0 4px 4px 0 !important;
-    padding: 12px 26px!important; 
+.gsc-control-cse, .cse .gsc-control-cse, .gsc-control-cse{
+    border: 0 !important;
 }
 
-.gsc-input-box {
-    margin: 0px !important;
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 ,.gsc-input-box{
+    width: auto !important;
+    height: 40px!important;
+    padding: 12px 27px!important;
+    margin-left: 0 !important;
+    border-radius: 0 4px 4px 0 !important;
+}
+
+.gsc-input-box{
     border-radius: 4px 0 0 4px !important;
-    height: 40px !important;
-    line-height: 32px !important;
+padding: 4px 0  !important
 }
 
-input.gsc-input {
-    font-size: 19px !important;
+.gsst_a .gscb_a ,.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2{
+    margin-top: 5px !important;
 }
 
-.gsc-search-box-tools .gsc-search-box .gsc-input {
-    padding-right: 0px !important;
-    border-radius: 0 4px 4px 0 !important;
-
+.gsc-webResult .gsc-result{
+    padding: 10px !important;
 }
 
-/*for search result*/ 
-.gs-web-image-box-landscape img.gs-image, .gs-web-image-box-landscape img.gs-image, gsc-preview-reviews, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em  {
-    margin: 0 7px !important;
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {
+    color: white  !important;
+    padding: 5px !important;
 }
 
-.gsc-selected-option-container {
-    min-width: 80px !important;
+.gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top{
+    padding-left: 0 !important;
 }
-
-#adBlock {
-    padding: 2px 7px  !important;
-}
-
-.gsst_a .gscb_a {
-    margin-top: 10px  !important;
-}
-
-
-.latest-post{
-    background-color: RGBA(245, 248, 250, 0.45);
-    border: 1px solid #d3e0e9;
-    border-radius: 4px;
-    padding: 20px 0;
-    margin-bottom: 15px;
-}
-
-.latest-post ul{
-    margin: 0;
-}
-
-.pagination li a{
-    border: 1px solid #d3e0e9;
-}
-
-.badge{
-    background-color: #30d16a;
-}
-
-@media screen and (max-width: 769px){
-    
-    #left-side, #right-side{
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-    }
-    .logo-name.navbar-brand{
-        float:none;
-    }
-}
-
 /* ==========================================================================
-   Footer
+   Footers
    ========================================================================== */
 
-footer{
-    padding-top: 20px;
+footer {
     border-top: 1px solid #d3e0e9;
     background-color: #fff;
-     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
+    box-shadow: 0 1px 2px rgba(0,0,0,.09) , 0 0 2px 2px rgba(255,255,255,.5) inset , 0 0 5px 5px rgba(255,255,255,.4) inset;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.09) , 0 0 2px 2px rgba(255,255,255,.5) inset , 0 0 5px 5px rgba(255,255,255,.4) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.09) , 0 0 2px 2px rgba(255,255,255,.5) inset , 0 0 5px 5px rgba(255,255,255,.4) inset;
+    
 }
 
-.footer-bottom{
-    background-color: RGBA(245, 248, 250, 0.45);
+.footer-bottom {
+    background-color: #F5F8FA;
     border-top: 1px solid #d3e0e9;
     min-height: 36px;
     line-height: 36px;
 }
 
-/* ==========================================================================
-   Modal
-   ========================================================================== */
-
-.close-modal{
-    margin-top: 8px !important;
+.h3-title{
+    border-bottom: 3px solid #d3e0e9;
+    padding-bottom: 10px;
+    margin-top: 0;
+    padding-top: 20px;
 }
 
-.well{
-    background-color: RGBA(245, 248, 250, 0.45);
-    border-radius: 0 0 4px 4px;
-    
+#about{
+    background-color: #F5F8FA;
+    float: left;
 }
 
-.modal-content{
-    border: 1px solid #d3e0e9 ;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -moz-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-    -webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.09), 0px 0px 2px 2px rgba(255, 255, 255, 0.5) inset, 0px 0px 5px 5px rgba(255, 255, 255, 0.4) inset;
-}
 
-.modal-header, .modal-footer{
-    border-color: #d3e0e9;
-}
 
-/* ==========================================================================
-   About 
-   ========================================================================== */
 
-.social-button{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    line-height: 45px;
-}
-
-.social-button:hover{
-    border-radius: 50%;
-}
-
-/* ==========================================================================
-   Tags 
-   ========================================================================== */
-
-.tags {
-  list-style: none;
-  margin: 0;
-  overflow: hidden; 
-  padding: 0;
-}
-
-.tags li {
-  float: left; 
-}
-
-.tag {
-  background: #eee;
-  border-radius: 3px 0 0 3px;
-  color: #999;
-  display: inline-block;
-  height: 26px;
-  line-height: 26px;
-  padding: 0 20px 0 23px;
-  position: relative;
-  margin: 0 10px 10px 0;
-  text-decoration: none;
-  -webkit-transition: color 0.2s;
-}
-
-.tag::before {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
-  content: '';
-  height: 6px;
-  left: 10px;
-  position: absolute;
-  width: 6px;
-  top: 10px;
-}
-
-.tag::after {
-  background: #fff;
-  border-bottom: 13px solid transparent;
-  border-left: 10px solid #eee;
-  border-top: 13px solid transparent;
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.tag:hover {
-  background-color: crimson;
-  color: white;
-}
-
-.tag:hover::after {
-   border-left-color: crimson; 
-}

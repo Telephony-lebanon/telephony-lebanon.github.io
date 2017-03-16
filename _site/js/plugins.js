@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
    To Top
    ========================================================================== */
     
-    $('body').append('<div id="to-top" class="btn btn-custom"><span class="fa fa-chevron-up"></span></div>');
+    $('body').append('<div id="to-top" class="btn btn-default"><span class="fa fa-chevron-up"></span></div>');
     
     $(window).scroll(function () {
             

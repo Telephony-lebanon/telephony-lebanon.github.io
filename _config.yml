@@ -11,6 +11,7 @@ paginate: 4
 gems: 
 - jekyll-paginate
 - jekyll-sitemap
+- jekyll-feed
 include: ['.editorconfig', '.gitattributes', '.gitignore', '.htaccess']
 
 # Build settings
