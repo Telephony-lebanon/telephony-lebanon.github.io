@@ -5,8 +5,8 @@
     <description>Telephony a weblog dedicated on delivering mobile phone latest news, how to fix, information guides and tutorials about the iPhone, iPad and Android.</description>
     <link>http://telephony-lebanon.github.io/</link>
     <atom:link href="http://telephony-lebanon.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Mar 2017 18:09:42 +0200</pubDate>
-    <lastBuildDate>Fri, 17 Mar 2017 18:09:42 +0200</lastBuildDate>
+    <pubDate>Sun, 19 Mar 2017 10:36:37 +0200</pubDate>
+    <lastBuildDate>Sun, 19 Mar 2017 10:36:37 +0200</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -21,18 +21,18 @@
 
 &lt;p&gt;Firstly, a message your received from a contact or a new email you’re about to send to someone will be delivered via an email service that doesn’t support encryption, making the message prone to eavesdropping as it travels between different email providers.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/large/google/gmail-lock-screenshot.PNG&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/large/Google/gmail-lock-screenshot.PNG&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Gmail lock icon animation 001&lt;/p&gt;
 
 &lt;p&gt;And secondly, a message you received cannot be authenticated—as indicated by a question mark in place of the sender’s profile photo, corporate logo or avatar—meaning it could be a phishing message.&lt;/p&gt;
 
 &lt;p&gt;Authenticated emails are recognized by an email provider as genuine. If a message isn’t authenticated, you should verify its source by opening it in the web interface and clicking on the Show Details icon below the sender’s name.
-&lt;img src=&quot;/images/large/google/Gmail-unauthenticated-avatar-web-screenshot-001.png&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;/images/large/Google/Gmail-unauthenticated-avatar-web-screenshot-001.png&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To avoid phishing scams, be careful about replying to messages that are not authenticated and especially avoid opening any attachments. For example, if you see messages claiming to be from google.com, but are not properly authenticated as coming from google.com, these are phishing messages.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/large/google/Gmail-unauthenticated-message-web-screenshot-001.gif&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/large/Google/Gmail-unauthenticated-message-web-screenshot-001.gif&quot; alt=&quot;Gmail new security feature&quot; title=&quot;Gmail new security feature&quot; class=&quot;img-responsive thumbnail&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;“Not all affected email will necessarily be dangerous,” notes Google. “But we encourage you to be extra careful about replying to, or clicking on links in messages that you’re not sure about.”&lt;/p&gt;
 
