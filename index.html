@@ -15,7 +15,7 @@ layout: default
                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h2>
                     <p>
-                        By <span><a href="#">{{ post.author }}</a></span>
+                        By <span><a href="{{ site.baseurl }}/about">{{ post.author }}</a></span>
                         •
                         {{ post.date | date: "%b %-d, %Y" }}
                     </p>
