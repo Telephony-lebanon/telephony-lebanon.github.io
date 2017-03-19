@@ -253,6 +253,14 @@ padding: 4px 0  !important
 .gsc-table-result, .gsc-thumbnail-inside, .gsc-url-top{
     padding-left: 0 !important;
 }
+
+.gsc-results-wrapper-overlay{
+        height: 95%;
+        width: 95%;
+        top: 2.5%;
+        left: 2.5%;
+        border-radius: 4px;
+}
 /* ==========================================================================
    Footers
    ========================================================================== */
