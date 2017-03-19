@@ -255,11 +255,11 @@ padding: 4px 0  !important
 }
 
 .gsc-results-wrapper-overlay{
-        height: 95%;
-        width: 95%;
-        top: 2.5%;
-        left: 2.5%;
-        border-radius: 4px;
+        height: 95% !important;
+        width: 95% !important;
+        top: 2.5% !important;
+        left: 2.5% !important;
+        border-radius: 4px !important;
 }
 /* ==========================================================================
    Footers
